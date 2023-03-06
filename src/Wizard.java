@@ -7,5 +7,5 @@ public class Wizard {
     private House house;
     private List<Spell> knownSpells;
     private List<Potion> potions;
-    //blablabla
+    //blablablabla
 }
