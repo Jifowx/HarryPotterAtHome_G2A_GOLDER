@@ -9,6 +9,13 @@ public class Game {
         houses.add(new House("Hufflepuff", 1,1,1, 1.5F));
         houses.add(new House("Ravenclaw",1, 1.5F, 1, 1));
 
+        int randHouse = (int)(Math.random() * 3) + 0; // random maison
+
+        Wizard wizard = new Wizard(null,null,null, houses.get(randHouse),null,null);
+
+
+
+
 
     }
 }
